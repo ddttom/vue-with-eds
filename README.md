@@ -1,10 +1,10 @@
-# Slide Builder Vue.js App
+# vue-with-eds
 
 This project is a Vue.js-based slide builder application, to be used in an Edge Delivery Services block implementation.
 
 ## Project Overview
 
-The Slide Builder Vue.js App allows users to view and interact with a collection of slides. Each slide displays an image, title, description, and supporting text. Users can click on a slide to view more detailed information in a panel.
+The vue-with-eds project allows users to view and interact with a collection of slides. Each slide displays an image, title, description, and supporting text. Users can click on a slide to view more detailed information in a panel.
 
 ## Author
 
