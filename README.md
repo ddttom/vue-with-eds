@@ -1,6 +1,6 @@
 # Slide Builder Vue.js App
 
-This project is a Vue.js-based slide builder application, converted from an original Edge Delivery Services block implementation.
+This project is a Vue.js-based slide builder application, to be used in an Edge Delivery Services block implementation.
 
 ## Project Overview
 
@@ -8,7 +8,7 @@ The Slide Builder Vue.js App allows users to view and interact with a collection
 
 ## Author
 
-**Tom Cranstoun** - Part 5 of Developer's Guide to Document Authoring with Edge Delivery Services
+**Tom Cranstoun**
 
 ## Project Setup
 
@@ -68,4 +68,4 @@ The application uses Vue.js 3 with the Composition API and consists of three mai
 ## Contact
 
 For more information about Edge Delivery Services or Vue.js integration, contact:
-**Digital Domain Technologies Ltd** - info@digitaldomaintechnologies.com
+**Digital Domain Technologies Ltd** - <info@digitaldomaintechnologies.com>
