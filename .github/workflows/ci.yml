@@ -42,7 +42,7 @@ jobs:
         path: dist/
         retention-days: 7
 
-  build-and-deploy:
+  build:
     needs: test
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main' && github.event_name == 'push'
@@ -62,9 +62,9 @@ jobs:
     - name: Build project
       run: npm run build
     
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
+    - name: Upload build artifacts
+      uses: actions/upload-artifact@v4
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./dist
-        cname: # Add custom domain if needed
+        name: production-build
+        path: dist/
+        retention-days: 30

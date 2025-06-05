@@ -8,7 +8,7 @@
 
 > A Vue.js-based slide builder application designed for Adobe Edge Delivery Services block implementation.
 
-🚀 **[Live Demo](https://ddttom.github.io/vue-with-eds)** | 📖 **[Documentation](CONTRIBUTING.md)** | 🐛 **[Report Bug](https://github.com/ddttom/vue-with-eds/issues/new?template=bug_report.md)** | 💡 **[Request Feature](https://github.com/ddttom/vue-with-eds/issues/new?template=feature_request.md)**
+📖 **[Documentation](CONTRIBUTING.md)** | 🐛 **[Report Bug](https://github.com/ddttom/vue-with-eds/issues/new?template=bug_report.md)** | 💡 **[Request Feature](https://github.com/ddttom/vue-with-eds/issues/new?template=feature_request.md)**
 
 ## Project Overview
 
