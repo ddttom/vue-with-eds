@@ -1,12 +1,29 @@
 {
-  "name": "vue-conversion",
-  "private": true,
-  "version": "0.0.0",
+  "name": "vue-with-eds",
+  "description": "Vue.js-based slide builder application for Adobe Edge Delivery Services block implementation",
+  "version": "1.0.0",
   "type": "module",
+  "private": false,
+  "keywords": ["vue", "vuejs", "edge-delivery-services", "adobe", "slides", "presentation", "block"],
+  "author": "Tom Cranstoun",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ddttom/vue-with-eds.git"
+  },
+  "homepage": "https://ddttom.github.io/vue-with-eds",
+  "bugs": {
+    "url": "https://github.com/ddttom/vue-with-eds/issues"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "echo 'Linting not configured - using manual code review'",
+    "test": "echo 'Tests not configured - using manual testing'",
+    "clean": "rm -rf dist node_modules/.vite",
+    "serve": "npm run preview",
+    "deploy": "npm run build && echo 'Build complete - ready for deployment'"
   },
   "dependencies": {
     "vue": "^3.4.0"
