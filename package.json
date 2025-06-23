@@ -25,7 +25,7 @@
     "deploy": "npm run build && echo 'Build complete - ready for deployment'"
   },
   "dependencies": {
-    "vue": "^3.4.0"
+    "vue": "^3.5.17"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.0",
